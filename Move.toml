@@ -1,0 +1,10 @@
+[package]
+name = "DoctorRep"
+version = "1.0.0"
+authors = ["RUPAM KARMAKAR"]
+
+[addresses]
+DoctorRep = "0xaca4676fbed8a1c0b51b7dab7b8abee0138b9e5eef39de62cc7d068df0f68c08"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework/", rev = "mainnet" }
